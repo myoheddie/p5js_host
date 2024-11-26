@@ -4,6 +4,9 @@ let speedFactors = [1, 1.5, 2]; // Different speeds for each electron
 function setup() {
   createCanvas(600, 600, WEBGL);
   noStroke();
+
+ // Attach this canvas to the div with ID "p5-container-1"
+    canvas.parent('p5-container-1');
 }
 
 function draw() {
